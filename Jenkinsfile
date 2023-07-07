@@ -15,7 +15,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git branch: 'main', url: 'https://github.com/gitqprofiles/J2K.git'
+        git branch: 'main', url: 'https://github.com/Raghavendrasug/J2K.git'
       }
     }
 
